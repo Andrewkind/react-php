@@ -11,10 +11,14 @@
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
   <!-- Load JSX Transformer. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script> -->
+
+  <!-- Load Babel. -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
   <!-- React script(s) -->
-  <script type="text/jsx" src="js/react-scripts.js" defer></script>
+  <!-- <script type="text/jsx" src="js/react-scripts.js" defer></script> -->
+  <script type="text/babel" src="js/react-scripts.js" defer></script>
 </head>
 <body>
   <h1>React Example</h1>
